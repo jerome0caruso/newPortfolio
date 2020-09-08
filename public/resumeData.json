@@ -1,138 +1,143 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "ReactJS Developer && Instructor @CleverProgrammer",
-    "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
-    "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "sonny@cleverprogrammer.com",
-    "phone": "+44 12 345 6789",
+    "name": "Jerome Caruso",
+    "occupation": "Developer",
+    "description": "Learning and developing my skills with HTML5, CSS3, JavaScript and React",
+    "image": "pic.png",
+    "bio": "I am a highly motivated person with a love for problem solving and working through different scenarios to find all solutions that may work.  I enjoy working in large groups which I have done through open source projects but I also find comfort in working on projects to find and learn solutions through my own resources. I always want to keep learning new ways to improve my code, my problem solving skills and ways I can use code to someday help people.",
+    "contactmessage": "If you would like to reach me please email me here!",
+    "email": "jerome@myjavascriptprojects.com",
+    "phone": "",
     "address": {
-      "street": "123 Fake Street",
-      "city": "London",
-      "state": "UK",
-      "zip": "ABC 123"
+      "street": "",
+      "city": "Chicago",
+      "state": "Il",
+      "zip": "60642"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://myjavascriptprojects.com/vanillajs50+projects/",
+    "resumedownload": "N/A",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "twitter",
+        "url": "https://twitter.com/Jeromecoding",
+        "className": "fa fa-twitter"
       },
       {
         "name": "github",
-        "url": "http://github.com/sonnysangha",
+        "url": "https://github.com/jerome0caruso",
         "className": "fa fa-github"
+      },
+      {
+        "name": "StackOverflow",
+        "url": "https://stackoverflow.com/users/12648976/jeromecode",
+        "className": "fa fa-stack-overflow"
+      },
+      {
+        "name": "WebSite",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/",
+        "className": "fa fa-desktop"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I am a highly motivated person with a love of problem solving and working through diffirent scenrios to find the solution, wether in be in a solo situation or working together in a large group. I want to keep learning about new ways to improve my code, problem solving skills and ways I can use code to someday help people.",
     "education": [
       {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
+        "degree": "University of Michigan Coursera Certificate: Interactivity with JavaScript",
+        "graduated": "2020"
+      },
+      {
+        "degree": "University of Michigan Coursera Certificate: Introduction to HTML5",
+        "graduated": "2020"
+      },
+      {
+        "degree": "University of Michigan Coursera Certificate: Building Web Applications in PHP",
+        "graduated": "2020"
+      },
+      {
+        "degree": "Atlassian Coursera Certificate: Version Control with Git",
+        "graduated": "2020"
+      },
+      {
+        "degree": "Udemy Certificate: JavaScript: Understanding the Weird Parts",
+        "graduated": "2020"
       }
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "title": "Freelance website design, open-source projects and personal projects"
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "60%"
       },
       {
         "name": "CSS",
-        "level": "95%"
+        "level": "85%"
       },
       {
         "name": "Git",
         "level": "60%"
       },
       {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
+        "name": "Vanilla JavaScript /ES6",
+        "level": "90%"
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "90%"
       },
       {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "PHP",
+        "level": "25%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "Michi A.F website",
+        "category": "Website built with (CSS, HTML, JavaScript)",
+        "image": "michi.png",
+        "url": "http://myjavascriptprojects.com/michi2/"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "title": "The Pig Game",
+        "category": "Game (HTML, CSS, JavaScript)",
+        "image": "pig.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/pig/index.html"
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+        "title": "Robot Friends",
+        "category": "App to filter through friends(React, Async JS, HTML, CSS",
+        "image": "rsite.png",
+        "url": "https://jerome0caruso.github.io/robotFriends/"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+        "title": "Site of projects in vanilla JavaScript",
+        "category": "Self and code along projects all in vanilla JS",
+        "image": "site.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Rock, Paper, Scissors",
+        "category": "Rock, Paper, Scissors Game(HTML, CSS, JavaScript)",
+        "image": "rps.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+        "user": "Kent Beck"
       },
       {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "“The world rewards you for creating things it doesn’t know how to get for itself.",
+        "user": "Naval Ravikant"
       }
     ]
   }

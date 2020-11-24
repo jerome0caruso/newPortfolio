@@ -2,14 +2,14 @@
   "main": {
     "name": "Jerome Caruso",
     "occupation": "Developer",
-    "description": "Learning and developing my skills with HTML5, CSS3, JavaScript and React",
+    "description": "Learning, developing and having fun crafting my skills with HTML5, CSS3, JavaScript, React, Php and more!",
     "image": "pic.png",
-    "bio": "I am a highly motivated person with a love for problem solving and working through different scenarios to find all solutions that may work.  I enjoy working in large groups which I have done through open source projects but I also find comfort in working on projects to find and learn solutions through my own resources. I always want to keep learning new ways to improve my code, my problem solving skills and ways I can use code to someday help people.",
+    "bio": "I am a highly motivated person with a love for problem solving and working through different scenarios to find all solutions that may work.  I enjoy working in large groups which I have done through open source projects but I also find comfort in working on projects to find and solve problems through my own resources. I always want to keep learning new ways to improve my code, my problem solving skills and ways I can use code to someday help people and businesses.",
     "contactmessage": "If you would like to reach me please email me here!",
     "email": "jerome@myjavascriptprojects.com",
-    "phone": "",
+    "phone": "(773) 931-0463",
     "address": {
-      "street": "",
+      "street": "525 N Ada. st",
       "city": "Chicago",
       "state": "Il",
       "zip": "60642"
@@ -40,7 +40,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I am a highly motivated person with a love of problem solving and working through diffirent scenrios to find the solution, wether in be in a solo situation or working together in a large group. I want to keep learning about new ways to improve my code, problem solving skills and ways I can use code to someday help people.",
+    "skillmessage": "I have always taught myself to try and learn difficult things throughout my life including classical piano, speaking french, cooking and problem solving.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
     "education": [
       {
         "degree": "University of Michigan Coursera Certificate: Interactivity with JavaScript",
@@ -99,45 +99,94 @@
     "projects": [
       {
         "title": "Michi A.F website",
-        "category": "Website built with (CSS, HTML, JavaScript)",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "Php",
         "image": "michi.png",
         "url": "http://myjavascriptprojects.com/michi2/"
       },
       {
         "title": "The Pig Game",
-        "category": "Game (HTML, CSS, JavaScript)",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
         "image": "pig.png",
         "url": "http://myjavascriptprojects.com/vanillajs50+projects/pig/index.html"
       },
       {
         "title": "Robot Friends",
-        "category": "App to filter through friends(React, Async JS, HTML, CSS",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "React",
         "image": "rsite.png",
         "url": "https://jerome0caruso.github.io/robotFriends/"
       },
       {
-        "title": "Site of projects in vanilla JavaScript",
-        "category": "Self and code along projects all in vanilla JS",
+        "title": "Projects in vanilla JS",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
         "image": "site.png",
         "url": "http://myjavascriptprojects.com/vanillajs50+projects/"
       },
       {
         "title": "Rock, Paper, Scissors",
-        "category": "Rock, Paper, Scissors Game(HTML, CSS, JavaScript)",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "PhotoShop",
         "image": "rps.png",
         "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
       }
     ]
   },
-  "testimonials": {
-    "testimonials": [
+  "algo": {
+    "projects": [
       {
-        "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-        "user": "Kent Beck"
+        "title": "Rot12",
+        "description": "This modulates the letter 13 places up or down the alphabet.",
+        "image": "rot13.png",
+        "url": "http://myjavascriptprojects.com/algo/rot12/rot12.html"
       },
       {
-        "text": "“The world rewards you for creating things it doesn’t know how to get for itself.",
-        "user": "Naval Ravikant"
+        "title": "The Pig Game",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "pig.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/pig/index.html"
+      },
+      {
+        "title": "Robot Friends",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "React",
+        "image": "rsite.png",
+        "url": "https://jerome0caruso.github.io/robotFriends/"
+      },
+      {
+        "title": "Projects in vanilla JS",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "site.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/"
+      },
+      {
+        "title": "Rock, Paper, Scissors",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "PhotoShop",
+        "image": "rps.png",
+        "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
       }
     ]
   }

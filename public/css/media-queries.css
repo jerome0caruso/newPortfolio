@@ -256,7 +256,15 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
-
+   .portfolio-item {
+      margin: 0 auto;
+   }
+   .portfolio-item img {
+      width: 300px;
+      height: 130px;
+      padding: 0 50px 5px 50px;
+      
+   }
 
    /* Testimonials Section
    ----------------------------------------------------------------------- */

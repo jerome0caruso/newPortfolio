@@ -418,16 +418,25 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 60px;
    padding-bottom: 60px;
+    
 }
 #portfolio h1 {
+   font: 24px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 28px;
+   color: #11ABB0;
+}
+#portfolio h2 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
+   margin-bottom: 38px;
+   color: #e9e9e9;
 }
 
 #portfolio-wrapper {
@@ -438,11 +447,16 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
-
+   text-align: center;
+   background: rgb(75, 75, 75);
+   border: 3px solid black;
+   padding: 5px 5px;
    overflow: hidden;
    position: relative;
-
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 400px;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -452,6 +466,39 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+.portfolio-item img {
+   width: 300px;
+   height: 130px;
+}
+.portfolio-item img:hover {
+   opacity: .5;
+}
+
+/*----------------------------------------------------------*/
+.projects__out-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.projects__out-container ul {
+   margin: 2px;
+}
+.projects__out-container h6{
+   color:  #ff7011;
+}
+.project__img-container {
+   display: flex;
+}
+/* Algo*/
+#algo {
+   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/algobg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.algo-h1 {
+   padding: 25px;
+   color:  #ff7011;
 }
 
 /* overlay */
@@ -502,7 +549,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 12px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {

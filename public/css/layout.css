@@ -520,6 +520,19 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
+
+.overlay-algo {
+   width: 50%;
+   height: 50%;
+}
+.overlay-algo:hover, .algo-pictures:hover {
+   opacity: .7;
+	-moz-opacity: .7;
+	
+}
+.overlay-algo h5 {
+   color: rgb(201, 201, 201);
+}
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;

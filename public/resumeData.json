@@ -7,7 +7,6 @@
     "bio": "I am a highly motivated person with a love for problem solving and working through different scenarios to find all solutions that may work.  I enjoy working in large groups which I have done through open source projects but I also find comfort in working on projects to find and solve problems through my own resources. I always want to keep learning new ways to improve my code, my problem solving skills and ways I can use code to someday help people and businesses.",
     "contactmessage": "If you would like to reach me please email me here!",
     "email": "jerome@myjavascriptprojects.com",
-    "phone": "(773) 931-0463",
     "address": {
       "street": "525 N Ada. st",
       "city": "Chicago",
@@ -71,11 +70,11 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "60%"
+        "level": "40%"
       },
       {
         "name": "CSS",
-        "level": "85%"
+        "level": "65%"
       },
       {
         "name": "Git",
@@ -83,28 +82,28 @@
       },
       {
         "name": "Vanilla JavaScript /ES6",
-        "level": "90%"
+        "level": "75%"
       },
       {
         "name": "HTML5",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "PHP",
-        "level": "25%"
+        "level": "20%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Michi A.F website",
-        "category1": "HTML",
+        "title": "Musify",
+        "category1": "JQuery",
         "category2": "CSS",
         "category3": "JavaScript",
         "category4": "Php",
-        "image": "michi.png",
-        "url": "http://myjavascriptprojects.com/michi2/"
+        "image": "../musify.png",
+        "url": "http://myjavascriptprojects.com/Musify/register.php"
       },
       {
         "title": "The Pig Game",

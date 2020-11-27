@@ -1,6 +1,5 @@
 {
   "name": "personalportfolio",
-  "homepage": "http://myjavascriptprojects.com/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -70,7 +70,7 @@ const Contact = ({ data }) => {
                      </div>
 
                      <div>
-                        <label htmlFor="contactSubject">Subject</label>
+                        <label htmlFor="contactSubject">Subjectt</label>
                         <input type="text" size="35" id="contactName" name="subject" id="contactSubject"/>
                      </div>
 

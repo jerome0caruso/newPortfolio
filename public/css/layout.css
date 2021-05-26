@@ -953,10 +953,10 @@ call-to-action .button {
 	font-size: 13px;
 }
 #message-warning, #message-success {
-   display: none;
-	background: #0F0F0F;
-	padding: 24px 24px;
-	margin-bottom: 36px;
+   display: block;
+	background: #191919;
+	padding: 4px 4px;
+	margin-bottom: 10px;
    width: 65%;
    margin-left: 26%;
 }

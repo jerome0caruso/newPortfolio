@@ -1,17 +1,36 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
-   const [url, setUrl] = useState('jerome@myjavascriptprojects.com');
-   const [name, setName] = useState('');
-   const [subject, setSubject] = useState('');
-   const [email, setEmail] = useState('');
-   const [message, setMessage] = useState('');
 
-   console.log(data)
+   const [successMessage, setSuccessMessage] = useState(false);
+   const [goodEmail, setgoodEmail] = useState(true);
+   const [email, setEmail] = useState('');
+  
 
    const handleClick = (e) => {
-      e.preventDefault();
-      window.open(`mailto:${url}?subject=${subject}&body=${name}: ${message}`);
+
+      let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (!email.match(regexEmail)) {
+         setgoodEmail(false);
+         e.preventDefault();
+      } else {
+         e.preventDefault();
+         emailjs.sendForm('service_ao0gi8r', 'port', e.target, 'user_mgpB053eN1O8gGlxZHIMa')
+           .then((result) => {
+               setSuccessMessage(true);
+               setgoodEmail(true);
+               console.log(result.text);
+           }, (error) => {
+               setSuccessMessage(0);
+               console.log(error.text);
+           });
+           e.target.reset();
+      }
+         
+
+      // e.preventDefault();
+      // window.open(`mailto:${url}?subject=${subject}&body=${name}: ${message}`);
    }
 
 
@@ -36,43 +55,47 @@ const Contact = ({ data }) => {
 
          <div className="row">
             <div className="eight columns">
-
-               <form id="contactForm" name="contactForm">
+               <form id="contactForm" name="contactForm" onSubmit={handleClick}>
                   <fieldset>
-
                      <div>
                         <label htmlFor="contactName">Name <span className="required">*</span></label>
-                        <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)} />
+                        <input type="text" size="35" id="contactName" name="name" id="contactName" required/>
                      </div>
-
+                     <div>
+                        {goodEmail ? null : <div id="message-warning">Please enter a valid email!</div>}
+                     </div>
                      <div>
                         <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                        <input value={email} type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={e => setEmail(e.target.value)} />
+                        <input type="text" onChange={e => setEmail(e.target.value)} size="35" id="contactName" name="email" id="contactEmail" required/>
                      </div>
 
                      <div>
                         <label htmlFor="contactSubject">Subject</label>
-                        <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)} />
+                        <input type="text" size="35" id="contactName" name="subject" id="contactSubject"/>
                      </div>
 
                      <div>
                         <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                        <textarea value={message} style={{ resize: 'none' }} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        <textarea style={{ resize: 'none' }} cols="50" rows="15" id="contactMessage" name="message" required></textarea>
                      </div>
 
                      <div>
-                        <button type='submit' onClick={handleClick} className="submit">Submit</button>
+                     {successMessage ? <div id="message-success"><i className="fa fa-check">Email has been received!</i> </div>: null}
+                     {successMessage === 0 ? <div id="message-warning">There was an error, please try again.</div>: null}
+                        <button type='submit' className="submit">Submit</button>
                         <span id="image-loader">
                            <img alt="" src="images/loader.gif" />
                         </span>
                      </div>
                   </fieldset>
                </form>
+                  
+                  
 
-               <div id="message-warning"> Error boy</div>
-               <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-               </div>
+                  
+
+
+                  
             </div>
 
 
@@ -89,7 +112,7 @@ const Contact = ({ data }) => {
                </div>
 
                <div className="widget widget_tweets">
-
+                  
                </div>
             </aside>
          </div>

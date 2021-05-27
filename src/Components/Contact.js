@@ -59,19 +59,19 @@ const Contact = ({ data }) => {
                   <fieldset>
                      <div>
                         <label htmlFor="contactName">Name <span className="required">*</span></label>
-                        <input type="text" size="35" id="contactName" name="name" id="contactName" required/>
+                        <input type="text" size="35" name="name" id="contactName" required/>
                      </div>
                      <div>
                         {goodEmail ? null : <div id="message-warning">Please enter a valid email!</div>}
                      </div>
                      <div>
                         <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                        <input type="text" onChange={e => setEmail(e.target.value)} size="35" id="contactName" name="email" id="contactEmail" required/>
+                        <input type="text" onChange={e => setEmail(e.target.value)} size="35" id="contactName" name="email" required/>
                      </div>
 
                      <div>
                         <label htmlFor="contactSubject">Subjec</label>
-                        <input type="text" size="35" id="contactName" name="subject" id="contactSubject"/>
+                        <input type="text" size="35" id="contactName" name="subject"/>
                      </div>
 
                      <div>

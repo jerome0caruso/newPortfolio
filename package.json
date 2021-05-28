@@ -1,11 +1,12 @@
 {
   "name": "personalportfolio",
   "version": "0.1.0",
-  "homepage": "https://jerome0caruso.github.io/Portfolio/", 
+  "homepage": "https://jerome0caruso.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",
+    "extract-css-chunks-webpack-plugin": "^4.9.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

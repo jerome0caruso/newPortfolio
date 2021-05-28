@@ -152,40 +152,10 @@
         "url": "http://myjavascriptprojects.com/algo/rot12/rot12.html"
       },
       {
-        "title": "The Pig Game",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "",
-        "image": "pig.png",
-        "url": "http://myjavascriptprojects.com/vanillajs50+projects/pig/index.html"
-      },
-      {
-        "title": "Robot Friends",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "React",
-        "image": "rsite.png",
-        "url": "https://jerome0caruso.github.io/robotFriends/"
-      },
-      {
-        "title": "Projects in vanilla JS",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "",
-        "image": "site.png",
-        "url": "http://myjavascriptprojects.com/vanillajs50+projects/"
-      },
-      {
-        "title": "Rock, Paper, Scissors",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "PhotoShop",
-        "image": "rps.png",
-        "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
+        "title": "Rot12",
+        "description": "This modulates the letter 13 places up or down the alphabet.",
+        "image": "anagrampic.jpg",
+        "url": "http://myjavascriptprojects.com/algo/findTheSame/index.html"
       }
     ]
   }

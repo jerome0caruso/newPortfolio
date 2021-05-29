@@ -16,7 +16,8 @@ class Portfolio extends Component {
                   <li><h6>~{projects.category3}</h6></li>
                   <li><h6>~{projects.category4}</h6></li>
                 </ul>
-                <a href ={projects.url}>Find It Here</a>
+                <a href ={projects.code}>Code/Github</a>
+                <a href ={projects.url}>View App Here</a>
             </div>
             <div className="project__img-container">
             <a href ={projects.url}><img src={projectImage}/></a>

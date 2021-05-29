@@ -65,7 +65,7 @@ const Contact = ({ data }) => {
                         {goodEmail ? null : <div id="message-warning">Please enter a valid email!</div>}
                      </div>
                      <div>
-                        <label htmlFor="contactEmail">mail <span className="required">*</span></label>
+                        <label htmlFor="contactEmail">Email <span className="required">*</span></label>
                         <input type="text" onChange={e => setEmail(e.target.value)} size="35" id="contactName" name="email" required/>
                      </div>
 

@@ -39,7 +39,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have always taught myself to try and learn difficult things throughout my life including classical piano, speaking french, cooking and problem solving.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
+    "skillmessage": "I have always taught myself to try and learn difficult things throughout my life including classical piano, french, cooking and problem solving.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
     "education": [
       {
         "degree": "University of Michigan Coursera Certificate: Interactivity with JavaScript",
@@ -97,13 +97,44 @@
   "portfolio": {
     "projects": [
       {
+        "title": "My Weather App",
+        "category1": "JavaScript",
+        "category2": "CSS",
+        "category3": "HTML",
+        "category4": "~",
+        "image": "weatherpic.png",
+        "code": "https://github.com/jerome0caruso/weatherApp",
+        "url": "http://myjavascriptprojects.com/weatherApp/index.html"
+      },
+      {
+        "title": "The Barber Shop",
+        "category1": "JavaScript",
+        "category2": "CSS",
+        "category3": "Express",
+        "category4": "Node",
+        "image": "bbpic.png",
+        "code": "https://github.com/jerome0caruso/theBarbershop",
+        "url": "https://thebarbershopspa.herokuapp.com/"
+      },
+      {
         "title": "Musify",
-        "category1": "JQuery",
+        "category1": "Php",
         "category2": "CSS",
         "category3": "JavaScript",
-        "category4": "Php",
+        "category4": "MySQL",
         "image": "../musify.png",
+        "code": "https://github.com/jerome0caruso/musify",
         "url": "http://myjavascriptprojects.com/Musify/register.php"
+      },
+      {
+        "title": "Capture",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "React",
+        "image": "capturepic.png",
+        "code": "https://github.com/jerome0caruso/FaceandInfo",
+        "url": "https://the-capture.herokuapp.com/"
       },
       {
         "title": "The Pig Game",
@@ -112,6 +143,7 @@
         "category3": "JavaScript",
         "category4": "",
         "image": "pig.png",
+        "code": "https://github.com/jerome0caruso/ThePigGame",
         "url": "http://myjavascriptprojects.com/vanillajs50+projects/pig/index.html"
       },
       {
@@ -121,6 +153,7 @@
         "category3": "JavaScript",
         "category4": "React",
         "image": "rsite.png",
+        "code": "https://github.com/jerome0caruso/robotFriends",
         "url": "https://jerome0caruso.github.io/robotFriends/"
       },
       {
@@ -139,6 +172,7 @@
         "category3": "JavaScript",
         "category4": "PhotoShop",
         "image": "rps.png",
+        "code": "https://github.com/jerome0caruso/rockpaperscissors",
         "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
       }
     ]

@@ -121,6 +121,26 @@
         "url": "https://thebarbershopspa.herokuapp.com/"
       },
       {
+        "title": "Todo List and FAQ",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "FAQpic.png",
+        "code": "https://github.com/jerome0caruso/FAQ",
+        "url": "http://www.myjavascriptprojects.com/FAQ/"
+      },
+      {
+        "title": "Carousel",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "carouselpic.png",
+        "code": "https://github.com/jerome0caruso/Review-carousel",
+        "url": "http://www.myjavascriptprojects.com/carousel/"
+      },
+      {
         "title": "Musify",
         "category1": "Php",
         "category2": "CSS",
@@ -159,25 +179,6 @@
         "image": "rsite.png",
         "code": "https://github.com/jerome0caruso/robotFriends",
         "url": "https://jerome0caruso.github.io/robotFriends/"
-      },
-      {
-        "title": "Projects in vanilla JS",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "",
-        "image": "site.png",
-        "url": "http://myjavascriptprojects.com/vanillajs50+projects/"
-      },
-      {
-        "title": "Rock, Paper, Scissors",
-        "category1": "HTML",
-        "category2": "CSS",
-        "category3": "JavaScript",
-        "category4": "PhotoShop",
-        "image": "rps.png",
-        "code": "https://github.com/jerome0caruso/rockpaperscissors",
-        "url": "http://myjavascriptprojects.com/vanillajs50+projects/RPS/index.html"
       }
     ]
   },

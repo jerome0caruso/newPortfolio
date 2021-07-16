@@ -1,0 +1,64 @@
+  "portfolio": {
+    "projects": [
+      {
+        "title": "My Weather App",
+        "category1": "JavaScript",
+        "category2": "CSS",
+        "category3": "HTML",
+        "category4": "~",
+        "image": "weatherpic.png",
+        "code": "https://github.com/jerome0caruso/weatherApp",
+        "url": "http://myjavascriptprojects.com/weatherApp/index.html"
+      },
+      {
+        "title": "The Barber Shop",
+        "category1": "JavaScript",
+        "category2": "CSS",
+        "category3": "Express",
+        "category4": "Node",
+        "image": "bbpic.png",
+        "code": "https://github.com/jerome0caruso/theBarbershop",
+        "url": "https://thebarbershopspa.herokuapp.com/"
+      },
+      {
+        "title": "Todo List and FAQ page",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "FAQpic.png",
+        "code": "https://github.com/jerome0caruso/FAQ",
+        "url": "http://www.myjavascriptprojects.com/FAQ/"
+      },
+      {
+        "title": "Carousel",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "",
+        "image": "carouselpic.png",
+        "code": "https://github.com/jerome0caruso/Review-carousel",
+        "url": "http://www.myjavascriptprojects.com/carousel/"
+      },
+      {
+        "title": "Musify",
+        "category1": "Php",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "MySQL",
+        "image": "../musify.png",
+        "code": "https://github.com/jerome0caruso/musify",
+        "url": "http://myjavascriptprojects.com/Musify/register.php"
+      },
+      {
+        "title": "Capture",
+        "category1": "HTML",
+        "category2": "CSS",
+        "category3": "JavaScript",
+        "category4": "React",
+        "image": "capturepic.png",
+        "code": "https://github.com/jerome0caruso/FaceandInfo",
+        "url": "https://the-capture.herokuapp.com/"
+      }
+    ]
+  },

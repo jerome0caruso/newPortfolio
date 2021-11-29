@@ -39,10 +39,10 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have always taught myself to try and learn difficult things throughout my life including classical piano, french, cooking and problem solving.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
+    "skillmessage": "I have always taught myself to learn difficult things throughout my life, including classical piano, being conversational in French, cooking and problem solving in software development.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
     "education": [
       {
-        "degree": "Codeing Temple Software Development BootCamp",
+        "degree": "Coding Temple Software Development BootCamp",
         "graduated": "2021"
       },
       {

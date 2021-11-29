@@ -42,6 +42,10 @@
     "skillmessage": "I have always taught myself to try and learn difficult things throughout my life including classical piano, french, cooking and problem solving.  All things which I love to do and will continue to work on as I go through life.  I have listed some of the resources I have used to help me with coding, version control and everything in-between.",
     "education": [
       {
+        "degree": "Codeing Temple Software Development BootCamp",
+        "graduated": "2021"
+      },
+      {
         "degree": "University of Michigan Coursera Certificate: Interactivity with JavaScript",
         "graduated": "2020"
       },
@@ -68,13 +72,13 @@
     ],
     "work": [
       {
-        "title": "Freelance website design, open-source projects and personal projects"
+        "title": "Freelance website design, open-source projects, hackathons and personal projects"
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "40%"
+        "level": "50%"
       },
       {
         "name": "CSS",
@@ -93,8 +97,8 @@
         "level": "80%"
       },
       {
-        "name": "PHP",
-        "level": "20%"
+        "name": "Python",
+        "level": "40%"
       }
     ]
   },

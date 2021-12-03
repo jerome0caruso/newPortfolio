@@ -105,6 +105,17 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Traduire",
+        "category1": "JavaScript",
+        "category2": "React",
+        "category3": "Python",
+        "category4": "PostgreSQL",
+        "image": "traduirepic.png",
+        "code": "https://github.com/jerome0caruso/Traduire",
+        "url": "https://traduirefront.herokuapp.com/"
+      },
+      {
+        
         "title": "My Weather App",
         "category1": "JavaScript",
         "category2": "CSS",
